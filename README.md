@@ -29,19 +29,20 @@ This app combines:
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/document-summarizer.git  
+   git clone https://github.com/KJithinReddy/Document-Summarizer.git
+   
    cd document-summarizer
 
-2. Create and activate a virtual environment:
+3. Create and activate a virtual environment:
 
    python -m venv venv  
    source venv/bin/activate     # On Windows: venv\Scripts\activate
 
-3. Install dependencies:
+4. Install dependencies:
 
    pip install -r requirements.txt
 
-4. Set your environment variable in a `.env` file:
+5. Set your environment variable in a `.env` file:
 
    GROQ_API_KEY=your_groq_api_key_here
 
